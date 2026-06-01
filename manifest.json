@@ -1,0 +1,17 @@
+{
+  "id": "roche-memory-checker",
+  "name": "Roche 记忆体检助手",
+  "version": "1.0.0",
+  "description": "读取角色人设、用户人设、长期记忆和最近聊天，调用 AI 给出整理建议，不自动写入主记忆。",
+  "author": "lambmm",
+  "entry": "https://raw.githubusercontent.com/lambmm/roche-memory-checker/main/plugin.js",
+  "hash": "",
+  "permissions": [
+    "persona:read",
+    "character:read",
+    "memory:read",
+    "ai:chat",
+    "storage",
+    "ui"
+  ]
+}
